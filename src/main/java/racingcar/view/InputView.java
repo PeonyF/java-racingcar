@@ -26,6 +26,7 @@ public class InputView {
         System.out.println(content);
         int value = SCANNER.nextInt();
         validateInputNum(value);
+
         return value;
     }
 
